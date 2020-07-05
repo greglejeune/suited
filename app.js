@@ -148,12 +148,12 @@ angular.module('suitedApp', [])
           return ngModel.$modelValue;
         }, function (modelValue) {
           $element.empty();
-          $element.append(angular.element("<span>" + combo + "</span>"));
+          $element.append(angular.element("<span>" + combo.substr(0,2) + "</span>"));
           if (modelValue[combo] !== undefined) {
             var handWrap = angular.element("<div/>");
             handWrap.addClass("absolute h-full w-full inset-y-0 left-0 z-20 p-1");
             var hand = angular.element("<span/>");
-            hand.text(combo);
+            hand.text(combo.substr(0,2));
             handWrap.append(hand);
             $element.append(handWrap);
 
