@@ -11,25 +11,81 @@ angular.module('suitedApp', [])
     $scope.currentAction = null;
     $scope.currentRangeText = "";
     $scope.currentRange = [];
+    $scope.rngMode = 0;
+
+    $scope.setRange = function (category) {
+      var range = [];
+      var frequence = [];
+      var randomizer = ($scope.rngMode == 0) ? 0 : (Math.floor(Math.random() * (100 - 0)) + 0);
+
+      var copyText = document.querySelector("#copied");
+      copyText.type = 'text';
+      copyText.value = category.combos;
+      copyText.select();
+      document.execCommand("copy");
+      copyText.type = 'hidden';
+
+      const combos = category.combos.split(',');
+      combos.forEach(hand => {
+        const combo = hand.split(':');
+        const allHands = prange(combo[0]);
+        allHands.forEach(oneHand => {
+          if (range[oneHand] == undefined) {
+            range[oneHand] = [];
+            frequence[oneHand] = 0;
+          }
+          if (combo[1] == undefined) {
+            combo.push(1);
+          }
+          frequence[oneHand] += combo[1] * 100;
+          if (randomizer < frequence[oneHand]) {
+            range[oneHand].push({
+              value: combo[1] * 100,
+              color: category.color
+            });
+          }
+        });
+      });
+
+      $scope.currentRange = range;
+    }
 
     $scope.getRange = function () {
       var range = [];
-      $scope.currentDeep.ranges[$scope.currentRangeText].categories.forEach(category => {
-        const combos = category.combos.split(',');
-        combos.forEach(hand => {
-          const combo = hand.split(':');
-          if (range[combo[0]] == undefined) {
-            range[combo[0]] = [];
-          }
-          range[combo[0]].push({
-            value: combo[1] * 100,
-            color: category.color
+      var frequence = [];
+      var randomizer = ($scope.rngMode == 0) ? 0 : (Math.floor(Math.random() * (100 - 0)) + 0);
+
+      if ($scope.currentDeep.ranges[$scope.currentRangeText] != undefined) {
+        $scope.currentDeep.ranges[$scope.currentRangeText].categories.forEach(category => {
+          const combos = category.combos.split(',');
+          combos.forEach(hand => {
+            const combo = hand.split(':');
+            const allHands = prange(combo[0]);
+            allHands.forEach(oneHand => {
+              if (range[oneHand] == undefined) {
+                range[oneHand] = [];
+                frequence[oneHand] = 0;
+              }
+              if (combo[1] == undefined) {
+                combo.push(1);
+              }
+              frequence[oneHand] += combo[1] * 100;
+              if (randomizer < frequence[oneHand]) {
+                range[oneHand].push({
+                  value: combo[1] * 100,
+                  color: category.color
+                });
+              }
+            });
           });
         });
-      });
+      }
       return range;
     };
 
+    $scope.turnRNGMode = function (game) {
+      $scope.rngMode = ($scope.rngMode == 0) ? 1 : 0;
+    };
     $scope.selectGame = function (game) {
       $scope.currentGame = game;
     };
@@ -40,6 +96,7 @@ angular.module('suitedApp', [])
       $scope.currentAction = action;
       if ($scope.vilain != null) {
         $scope.currentRangeText = $scope.hero + " vs " + $scope.vilain + " " + $scope.currentAction;
+        $scope.currentRange = $scope.getRange();
       }
       else {
         $scope.currentRangeText = $scope.hero + " " + $scope.currentAction;
@@ -52,10 +109,14 @@ angular.module('suitedApp', [])
           $scope.hero = seat.name;
           $scope.vilain = null;
           $scope.currentActions = ACTIONS.RFI;
+          $scope.currentRangeText = $scope.hero + " " + ACTIONS.RFI[0];
+          $scope.currentRange = $scope.getRange();
         } else {
           if ($scope.hero == seat.name) {
             $scope.vilain = null;
             $scope.currentActions = ACTIONS.RFI;
+            $scope.currentRangeText = $scope.hero + " " + ACTIONS.RFI[0];
+            $scope.currentRange = $scope.getRange();
           } else {
             $scope.vilain = seat.name;
             if (POSITIONS[$scope.hero] < POSITIONS[$scope.vilain]) {
@@ -68,6 +129,8 @@ angular.module('suitedApp', [])
       } else {
         $scope.hero = seat.name;
         $scope.currentActions = ACTIONS.RFI;
+        $scope.currentRangeText = $scope.hero + " " + ACTIONS.RFI[0];
+        $scope.currentRange = $scope.getRange();
       }
     };
   })
@@ -148,12 +211,12 @@ angular.module('suitedApp', [])
           return ngModel.$modelValue;
         }, function (modelValue) {
           $element.empty();
-          $element.append(angular.element("<span>" + combo.substr(0,2) + "</span>"));
+          $element.append(angular.element("<span>" + combo.substr(0, 2) + "</span>"));
           if (modelValue[combo] !== undefined) {
             var handWrap = angular.element("<div/>");
             handWrap.addClass("absolute h-full w-full inset-y-0 left-0 z-20 p-1");
             var hand = angular.element("<span/>");
-            hand.text(combo.substr(0,2));
+            hand.text(combo.substr(0, 2));
             handWrap.append(hand);
             $element.append(handWrap);
 
