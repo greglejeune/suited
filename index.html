@@ -52,7 +52,7 @@
       </div>
       <range class="m-4"></range>
       <div class="flex">
-        <a href="#" ng-click="setRange(category)" ng-repeat="category in currentDeep.ranges[currentRangeText].categories" class="p-2 m-2 flex items-center justify-between text-sm font-medium rounded-lg {{category.color}}">{{category.name}}</a>
+        <a href="#" ng-click="setRange(category, $event.currentTarget)" ng-repeat="category in currentDeep.ranges[currentRangeText].categories" class="p-2 m-2 flex items-center justify-between text-sm font-medium rounded-lg {{category.color}}">{{category.name}}</a>
       </div>
       <div>
         <input id="copied" type="hidden">

@@ -13,7 +13,7 @@ angular.module('suitedApp', [])
     $scope.currentRange = [];
     $scope.rngMode = 0;
 
-    $scope.setRange = function (category) {
+    $scope.setRange = function (category, element) {
       var range = [];
       var frequence = [];
       var randomizer = ($scope.rngMode == 0) ? 0 : (Math.floor(Math.random() * (100 - 0)) + 0);
@@ -24,6 +24,7 @@ angular.module('suitedApp', [])
       copyText.select();
       document.execCommand("copy");
       copyText.type = 'hidden';
+      element.focus();
 
       const combos = category.combos.split(',');
       combos.forEach(hand => {
@@ -40,7 +41,7 @@ angular.module('suitedApp', [])
           frequence[oneHand] += combo[1] * 100;
           if (randomizer < frequence[oneHand]) {
             range[oneHand].push({
-              value: combo[1] * 100,
+              value: ($scope.rngMode == 0) ? combo[1] * 100 : 100,
               color: category.color
             });
           }
@@ -62,19 +63,35 @@ angular.module('suitedApp', [])
             const combo = hand.split(':');
             const allHands = prange(combo[0]);
             allHands.forEach(oneHand => {
-              if (range[oneHand] == undefined) {
-                range[oneHand] = [];
+              if (frequence[oneHand] == undefined) {
                 frequence[oneHand] = 0;
-              }
-              if (combo[1] == undefined) {
-                combo.push(1);
               }
               frequence[oneHand] += combo[1] * 100;
               if (randomizer < frequence[oneHand]) {
-                range[oneHand].push({
-                  value: combo[1] * 100,
-                  color: category.color
-                });
+                if ($scope.rngMode == 1) {
+                  if (range[oneHand] == undefined) {
+                    range[oneHand] = [];
+                    if (combo[1] == undefined) {
+                      combo.push(1);
+                    }
+                    range[oneHand].push({
+                      value: ($scope.rngMode == 0) ? combo[1] * 100 : 100,
+                      color: category.color
+                    });
+                  }
+                }
+                else {
+                  if (range[oneHand] == undefined) {
+                    range[oneHand] = [];
+                  }
+                  if (combo[1] == undefined) {
+                    combo.push(1);
+                  }
+                  range[oneHand].push({
+                    value: ($scope.rngMode == 0) ? combo[1] * 100 : 100,
+                    color: category.color
+                  });
+                }
               }
             });
           });
