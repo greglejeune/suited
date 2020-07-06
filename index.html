@@ -48,11 +48,11 @@
       </div>
       <div class="h-5">
         &nbsp;
-        <a href="#" ng-repeat="action in currentActions" class="mr-3" ng-click="selectAction(action)">{{action}}</a>
+        <a href="javascript: void(0);" ng-repeat="action in currentActions" class="mr-3" ng-click="selectAction(action)">{{action}}</a>
       </div>
       <range class="m-4"></range>
       <div class="flex">
-        <a href="#" ng-click="setRange(category, $event.currentTarget)" ng-repeat="category in currentDeep.ranges[currentRangeText].categories" class="p-2 m-2 flex items-center justify-between text-sm font-medium rounded-lg {{category.color}}">{{category.name}}</a>
+        <a href="javascript: void(0);" ng-click="setRange(category, $event.currentTarget)" ng-repeat="category in currentDeep.ranges[currentRangeText].categories" class="p-2 m-2 flex items-center justify-between text-sm font-medium rounded-lg {{category.color}}">{{category.name}}</a>
       </div>
       <div>
         <input id="copied" type="hidden">
