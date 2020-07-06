@@ -29,7 +29,7 @@ angular.module('suitedApp', [])
       const combos = category.combos.split(',');
       combos.forEach(hand => {
         const combo = hand.split(':');
-        const allHands = prange(combo[0]);
+        const allHands = (category.combos == "") ? [] : prange(combo[0]);
         allHands.forEach(oneHand => {
           if (range[oneHand] == undefined) {
             range[oneHand] = [];
@@ -61,19 +61,19 @@ angular.module('suitedApp', [])
           const combos = category.combos.split(',');
           combos.forEach(hand => {
             const combo = hand.split(':');
-            const allHands = prange(combo[0]);
+            const allHands = (category.combos == "") ? [] : prange(combo[0]);
             allHands.forEach(oneHand => {
               if (frequence[oneHand] == undefined) {
                 frequence[oneHand] = 0;
+              }
+              if (combo[1] == undefined) {
+                combo.push(1);
               }
               frequence[oneHand] += combo[1] * 100;
               if (randomizer < frequence[oneHand]) {
                 if ($scope.rngMode == 1) {
                   if (range[oneHand] == undefined) {
                     range[oneHand] = [];
-                    if (combo[1] == undefined) {
-                      combo.push(1);
-                    }
                     range[oneHand].push({
                       value: ($scope.rngMode == 0) ? combo[1] * 100 : 100,
                       color: category.color
@@ -83,9 +83,6 @@ angular.module('suitedApp', [])
                 else {
                   if (range[oneHand] == undefined) {
                     range[oneHand] = [];
-                  }
-                  if (combo[1] == undefined) {
-                    combo.push(1);
                   }
                   range[oneHand].push({
                     value: ($scope.rngMode == 0) ? combo[1] * 100 : 100,
@@ -138,8 +135,12 @@ angular.module('suitedApp', [])
             $scope.vilain = seat.name;
             if (POSITIONS[$scope.hero] < POSITIONS[$scope.vilain]) {
               $scope.currentActions = ACTIONS.IP;
+              $scope.currentRangeText = $scope.hero + " vs " + $scope.vilain + " " + ((POSITIONS[$scope.vilain] > 6) ? ACTIONS.IP[1] : ACTIONS.IP[0]);
+              $scope.currentRange = $scope.getRange();
             } else {
               $scope.currentActions = ACTIONS.OOP;
+              $scope.currentRangeText = $scope.hero + " vs " + $scope.vilain + " " + ACTIONS.OOP[0];
+              $scope.currentRange = $scope.getRange();
             }
           }
         }

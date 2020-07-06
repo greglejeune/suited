@@ -26,46 +26,301 @@ var RANGES = [
                         "style": "top: 0px; right: 56px;"
                     },
                     {
-                        "name": "UTG",
+                        "name": "LJ",
                         "style": "top: 0px; left: 56px;"
                     }
                 ],
                 "ranges": {
-                    "BTN Open": {
+                    "LJ Open": {
                         "categories": [
                             {
                                 "name": "Raise",
-                                "combos": "AA:1,AKs:1,AQs:0.6667,AJs:0.3333,ATs:0.3333,A9s:0.6273,A8s:0.7128,A7s:0.3333,A6s:0.1317,A5s:0.6667,A4s:0.6667,A3s:0.1926,AKo:0.6667,KK:1,KQs:0.3333,KJs:0.6412,KTs:0.6667,K9s:0.387,AQo:0.5,KQo:0.5714,QQ:0.6667,QJs:0.6667,QTs:0.6667,AJo:0.07077,KJo:0.2239,JJ:0.3333,JTs:0.4111,TT:0.3515,T9s:0.3854,99:0.3333,98s:0.0003658,88:0.4624,87s:0.1667,77:0.4082,76s:0.2515,66:0.317,65s:0.3364,55:0.1854,54s:0.2706",
+                                "combos": "77+,A3s+,K8s+,Q9s+,JTs,9Ts,ATo+,KQo",
                                 "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "LJ vs BTN 3bet": {
+                        "categories": [
+                            {
+                                "name": "4bet",
+                                "combos": "AA-KK,AKs",
+                                "color": "bg-red-600"
                             },
                             {
-                                "name": "Flat",
-                                "combos": "AQs:0.3333,AJs:0.6667,ATs:0.6667,A9s:0.3137,A8s:0.2769,A5s:0.3333,A4s:0.3333,A3s:0.1615,AKo:0.3333,KQs:0.6667,KJs:0.3588,KTs:0.3333,AQo:0.5,KQo:0.1429,QQ:0.3333,QJs:0.3333,QTs:0.3333,JJ:0.6667,JTs:0.5889,TT:0.6485,T9s:0.2166,99:0.6667,98s:0.2255,88:0.5376,87s:0.1667,77:0.5918,76s:0.2413,66:0.3566,65s:0.3272,55:0.3707,54s:0.3647,44:0.21,33:0.2382,22:0.2291",
+                                "name": "Call",
+                                "combos": "QQ-99,AQs,KQs,AKo",
                                 "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "LJ vs BB 3bet": {
+                        "categories": [
+                            {
+                                "name": "4bet",
+                                "combos": "AA,AKs",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "KK-88,AQs-AJs,KQs,AKo",
+                                "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "HJ Open": {
+                        "categories": [
+                            {
+                                "name": "Raise",
+                                "combos": "55+,A2s+,K7s+,Q9s+,J9s+,T9s,ATo+,KJo+,QJo",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "HJ vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "AJs+,KQs,99+,AQo+",
+                                "color": "bg-red-600"
                             }
                         ]
                     },
                     "CO Open": {
                         "categories": [
                             {
-                                "name": "Open",
-                                "combos": "AA:1,AKs:1,AQs:1,AJs:1,ATs:1,A9s:1,A8s:1,A7s:1,A6s:1,A5s:1,A4s:1,A3s:1,A2s:0.72,AKo:1,KK:1,KQs:1,KJs:1,KTs:1,K9s:1,K8s:1,K7s:0.3333,K5s:0.3333,AQo:1,KQo:1,QQ:1,QJs:1,QTs:1,Q9s:1,AJo:1,KJo:0.6667,QJo:0.4597,JJ:1,JTs:1,J9s:0.3333,ATo:1,KTo:0.3333,QTo:0.3333,TT:1,T9s:1,99:1,98s:0.2,88:1,87s:0.3333,77:1,76s:0.3333,66:0.7536,65s:0.3333,55:0.5676,54s:0.3333,44:0.3333,33:0.3333,22:0.3333",
+                                "name": "Raise",
+                                "combos": "44+,A2s+,K4s+,Q6s+,J8s+,T8s+,98s,A8o+,KTo+,QTo+,JTo",
                                 "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "CO vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "AJs+,KQs,A5s,99+,AQo+",
+                                "color": "bg-red-600"
+                            }
+                        ]
+                    },
+                    "CO vs HJ Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "ATs+,KJs+,A5s,88+,AQo+",
+                                "color": "bg-red-600"
+                            }
+                        ]
+                    },
+                    "CO vs BTN 3bet": {
+                        "categories": [
+                            {
+                                "name": "4bet",
+                                "combos": "AA-QQ,AK,AQo,KJs",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "JJ-22,AQs-ATs,KQs,QJs,JTs",
+                                "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "CO vs BB 3bet": {
+                        "categories": [
+                            {
+                                "name": "4bet",
+                                "combos": "AA-KK,AKs",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "QQ-66,AQs-ATs,KJs+,QJs,JTs,AQo+",
+                                "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "BTN Open": {
+                        "categories": [
+                            {
+                                "name": "Raise",
+                                "combos": "22+,A2s+,K2s+,Q3s+,J5s+,T6s+,96s+,86s+,75s+,65s,54s,A4o+,K8o+,Q9o+,J9o+,T9o",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BTN vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "ATs+,KJs+,A5s,99+,AQo+",
+                                "color": "bg-red-600"
+                            }
+                        ]
+                    },
+                    "BTN vs HJ Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "ATs+,KJs+,A5s,88+,AQo+",
+                                "color": "bg-red-600"
+                            }
+                        ]
+                    },
+                    "BTN vs CO Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "A8s+,KTs+,QTs+,JTs,A5s-A4s,77+,AJo+,KQo",
+                                "color": "bg-red-600"
+                            }
+                        ]
+                    },
+                    "BTN vs BB 3bet": {
+                        "categories": [
+                            {
+                                "name": "4bet",
+                                "combos": "JJ+,AK",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "AQs-A8s,A5s-A4s,K9s+,QTs+,J9s+,T8s+,98s,87s,76s,TT-22,AQo-AJo,KQo",
+                                "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "SB Open": {
+                        "categories": [
+                            {
+                                "name": "Raise",
+                                "combos": "22+,A2s+,K2s+,Q2s+,J4s+,T6s+,96s+,85s+,75s+,64s+,53s+,A4o+,K8o+,Q9o+,J9o+,T9o",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "SB vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "99+,AJs+,A5s-A4s,KQs,QJs,AKo",
+                                "color": "bg-red-600"
+                            }
+                        ]
+                    },
+                    "SB vs HJ Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "88+,ATs+,A5s-A4s,KJs+,QJs,AQo+",
+                                "color": "bg-red-600"
+                            }
+                        ]
+                    },
+                    "SB vs CO Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "77+,A9s+,A5s-A4s,KJs+,QTs+,JTs,AQo+,KQo",
+                                "color": "bg-red-600"
+                            }
+                        ]
+                    },
+                    "SB vs BTN Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "55+,A7s+,A5s-A4s,KTs+,QTs+,JTs,T9s,AJo+,KQo",
+                                "color": "bg-red-600"
+                            }
+                        ]
+                    },
+                    "SB vs BB 3bet": {
+                        "categories": [
+                            {
+                                "name": "4bet",
+                                "combos": "TT+,AK,AQs",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "AJs-A7s,A5s,K9s+,QTs+,J9s+,T8s+,98s,99-22,AQo-AJo,KQo",
+                                "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "BB vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "QQ+,AK,KQs,QJs,A5s",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "AQo-ATo,KJo+,JJ-22,AQs-A6s,A4-A2s,KJs-K9s,QTs-Q9s,J9s+,T8s+,97s+,86s+,76s,65s,54s,43s",
+                                "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "BB vs HJ Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "JJ+,AK,AQs,KQs,QJs,A5s",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "AQo-ATo,KJo+,QJo,TT-22,AJs-A6s,A4-A2s,KJs-K8s,QTs-Q8s,J8s+,T8s+,97s+,86s+,75s+,64s+,54s,43s",
+                                "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "BB vs CO Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "TT+,AQs+,A5s,AKo,KJs+,QTs+,JTs",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "AQo-A9o,KTo+,QTo+,JTo,99-22,AJs-A6s,A4-A2s,KTs-K2s,Q9s-Q6s,J9s-J7s,T9s-T7s,98s,96s+,86s+,75s+,64s+,53s+,43s",
+                                "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "BB vs BTN Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "99+,AJs+,KQs,A5s-A4s,T8s+,J9s+,AQo+",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "ATs-A6s,A3s-A2s,KJs-K2s,Q3s+,J8s-J6s,T7s-T6s,96s+,85s+,74s+,63s+,53s+,43s,88-22,AJo-A7o,A5o,K9o+,Q9o+,J9o+,T9o",
+                                "color": "bg-green-600"
+                            }
+                        ]
+                    },
+                    "BB vs SB Open": {
+                        "categories": [
+                            {
+                                "name": "3bet",
+                                "combos": "TT+,AJs+,KJs+,A5s-A4s,AQo+,T8o,87o,73s,84s,95s",
+                                "color": "bg-red-600"
+                            },
+                            {
+                                "name": "Call",
+                                "combos": "ATs-A6s,A3s-A2s,KTs-K2s,Q2s+,JTs-J4s,T9s-T6s,96s+,85s+,74s+,63s+,53s+,43s,99-22,AJo-A2o,K8o+,Q8o+,J9o+,T9o,98o",
+                                "color": "bg-green-600"
                             }
                         ]
                     }
                 }
-            }
-        ]
-    },
-    {
-        "name": "MTT",
-        "deeps": [
-            {
-                "name": "100bb"
-            },
-            {
-                "name": "50bb"
             }
         ]
     }
@@ -73,8 +328,8 @@ var RANGES = [
 
 var ACTIONS = {
     "RFI": ["Open"],
-    "IP": ["Open", "4bet"],
-    "OOP": ["3bet", "5bet"]
+    "IP": ["Open", "3bet", "4bet"],
+    "OOP": ["3bet"]
 }
 
 var POSITIONS = {
