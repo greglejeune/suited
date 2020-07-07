@@ -1,9 +1,10 @@
-angular.module('suitedApp', ['LocalStorageModule'])
+angular
+  .module("suitedApp", ["LocalStorageModule"])
   .config(function (localStorageServiceProvider) {
-    localStorageServiceProvider.setPrefix('suited');
+    localStorageServiceProvider.setPrefix("suited");
   })
-  .controller('ApplicationController', function ($scope, localStorageService) {
-    $scope.unbind = localStorageService.bind($scope, 'datas');
+  .controller("ApplicationController", function ($scope, localStorageService) {
+    $scope.unbind = localStorageService.bind($scope, "datas");
     if ($scope.datas == null) {
       $scope.datas = RANGES;
     }
@@ -22,42 +23,43 @@ angular.module('suitedApp', ['LocalStorageModule'])
     $scope.rngMode = 0;
 
     $scope.test = function () {
-      var allNews = document.querySelectorAll(".bg-gray-500");
+      var allNews = document.querySelectorAll(".selected");
       allNews.forEach(function (elmt) {
         console.log(elmt.id);
       });
-    }
+    };
 
     $scope.refreshRange = function (category, element) {
       $scope.selectedCategory = null;
       $scope.currentRange = $scope.getRange();
-    }
+    };
 
     $scope.refreshRange = function (category, element) {
       $scope.selectedCategory = null;
       $scope.currentRange = $scope.getRange();
-    }
+    };
 
     $scope.setRange = function (category, element) {
       var range = [];
       var frequence = [];
-      var randomizer = ($scope.rngMode == 0) ? 0 : (Math.floor(Math.random() * (100 - 0)) + 0);
+      var randomizer =
+        $scope.rngMode == 0 ? 0 : Math.floor(Math.random() * (100 - 0)) + 0;
 
       $scope.selectedCategory = category;
 
       var copyText = document.querySelector("#copied");
-      copyText.type = 'text';
+      copyText.type = "text";
       copyText.value = category.combos;
       copyText.select();
       document.execCommand("copy");
-      copyText.type = 'hidden';
+      copyText.type = "hidden";
       element.focus();
 
-      const combos = category.combos.split(',');
-      combos.forEach(hand => {
-        const combo = hand.split(':');
-        const allHands = (category.combos == "") ? [] : prange(combo[0]);
-        allHands.forEach(oneHand => {
+      const combos = category.combos.split(",");
+      combos.forEach((hand) => {
+        const combo = hand.split(":");
+        const allHands = category.combos == "" ? [] : prange(combo[0]);
+        allHands.forEach((oneHand) => {
           if (range[oneHand] == undefined) {
             range[oneHand] = [];
             frequence[oneHand] = 0;
@@ -68,64 +70,66 @@ angular.module('suitedApp', ['LocalStorageModule'])
           frequence[oneHand] += combo[1] * 100;
           if (randomizer < frequence[oneHand]) {
             range[oneHand].push({
-              value: ($scope.rngMode == 0) ? combo[1] * 100 : 100,
-              color: category.color
+              value: $scope.rngMode == 0 ? combo[1] * 100 : 100,
+              color: category.color,
             });
           }
         });
       });
 
       $scope.currentRange = range;
-    }
+    };
 
     $scope.getRange = function () {
       var range = [];
       var frequence = [];
-      var randomizer = ($scope.rngMode == 0) ? 0 : (Math.floor(Math.random() * (100 - 0)) + 0);
+      var randomizer =
+        $scope.rngMode == 0 ? 0 : Math.floor(Math.random() * (100 - 0)) + 0;
 
       if ($scope.currentDeep.ranges[$scope.currentRangeText] != undefined) {
-        $scope.currentDeep.ranges[$scope.currentRangeText].categories.forEach(category => {
-          const combos = category.combos.split(',');
-          combos.forEach(hand => {
-            const combo = hand.split(':');
-            const allHands = (category.combos == "") ? [] : prange(combo[0]);
-            allHands.forEach(oneHand => {
-              if (frequence[oneHand] == undefined) {
-                frequence[oneHand] = 0;
-              }
-              if (combo[1] == undefined) {
-                combo.push(1);
-              }
-              frequence[oneHand] += combo[1] * 100;
-              if (randomizer < frequence[oneHand]) {
-                if ($scope.rngMode == 1) {
-                  if (range[oneHand] == undefined) {
-                    range[oneHand] = [];
+        $scope.currentDeep.ranges[$scope.currentRangeText].categories.forEach(
+          (category) => {
+            const combos = category.combos.split(",");
+            combos.forEach((hand) => {
+              const combo = hand.split(":");
+              const allHands = category.combos == "" ? [] : prange(combo[0]);
+              allHands.forEach((oneHand) => {
+                if (frequence[oneHand] == undefined) {
+                  frequence[oneHand] = 0;
+                }
+                if (combo[1] == undefined) {
+                  combo.push(1);
+                }
+                frequence[oneHand] += combo[1] * 100;
+                if (randomizer < frequence[oneHand]) {
+                  if ($scope.rngMode == 1) {
+                    if (range[oneHand] == undefined) {
+                      range[oneHand] = [];
+                      range[oneHand].push({
+                        value: $scope.rngMode == 0 ? combo[1] * 100 : 100,
+                        color: category.color,
+                      });
+                    }
+                  } else {
+                    if (range[oneHand] == undefined) {
+                      range[oneHand] = [];
+                    }
                     range[oneHand].push({
-                      value: ($scope.rngMode == 0) ? combo[1] * 100 : 100,
-                      color: category.color
+                      value: $scope.rngMode == 0 ? combo[1] * 100 : 100,
+                      color: category.color,
                     });
                   }
                 }
-                else {
-                  if (range[oneHand] == undefined) {
-                    range[oneHand] = [];
-                  }
-                  range[oneHand].push({
-                    value: ($scope.rngMode == 0) ? combo[1] * 100 : 100,
-                    color: category.color
-                  });
-                }
-              }
+              });
             });
-          });
-        });
+          }
+        );
       }
       return range;
     };
 
     $scope.turnRNGMode = function (game) {
-      $scope.rngMode = ($scope.rngMode == 0) ? 1 : 0;
+      $scope.rngMode = $scope.rngMode == 0 ? 1 : 0;
     };
     $scope.selectGame = function (game) {
       $scope.currentGame = game;
@@ -136,10 +140,10 @@ angular.module('suitedApp', ['LocalStorageModule'])
     $scope.selectAction = function (action) {
       $scope.currentAction = action;
       if ($scope.vilain != null) {
-        $scope.currentRangeText = $scope.hero + " vs " + $scope.vilain + " " + $scope.currentAction;
+        $scope.currentRangeText =
+          $scope.hero + " vs " + $scope.vilain + " " + $scope.currentAction;
         $scope.currentRange = $scope.getRange();
-      }
-      else {
+      } else {
         $scope.currentRangeText = $scope.hero + " " + $scope.currentAction;
         $scope.currentRange = $scope.getRange();
       }
@@ -162,11 +166,21 @@ angular.module('suitedApp', ['LocalStorageModule'])
             $scope.vilain = seat.name;
             if (POSITIONS[$scope.hero] < POSITIONS[$scope.vilain]) {
               $scope.currentActions = ACTIONS.IP;
-              $scope.currentRangeText = $scope.hero + " vs " + $scope.vilain + " " + ((POSITIONS[$scope.vilain] > 6) ? ACTIONS.IP[1] : ACTIONS.IP[0]);
+              $scope.currentRangeText =
+                $scope.hero +
+                " vs " +
+                $scope.vilain +
+                " " +
+                (POSITIONS[$scope.vilain] > 6 ? ACTIONS.IP[1] : ACTIONS.IP[0]);
               $scope.currentRange = $scope.getRange();
             } else {
               $scope.currentActions = ACTIONS.OOP;
-              $scope.currentRangeText = $scope.hero + " vs " + $scope.vilain + " " + ((POSITIONS[$scope.hero] > 6) ? ACTIONS.OOP[0] : ACTIONS.OOP[1]);
+              $scope.currentRangeText =
+                $scope.hero +
+                " vs " +
+                $scope.vilain +
+                " " +
+                (POSITIONS[$scope.hero] > 6 ? ACTIONS.OOP[0] : ACTIONS.OOP[1]);
               $scope.currentRange = $scope.getRange();
             }
           }
@@ -179,56 +193,137 @@ angular.module('suitedApp', ['LocalStorageModule'])
       }
     };
   })
-  .directive('range', function () {
+  .directive("range", function () {
     return {
-      restrict: 'E',
+      restrict: "E",
       controller: function ($scope) {
-        var cartes = $scope.cartes = ['A', 'K', 'Q', 'J', 'T', '9', '8', '7', '6', '5', '4', '3', '2'];
+        var cartes = ($scope.cartes = [
+          "A",
+          "K",
+          "Q",
+          "J",
+          "T",
+          "9",
+          "8",
+          "7",
+          "6",
+          "5",
+          "4",
+          "3",
+          "2",
+        ]);
       },
-      template: '<div class="cursor-default">' +
+      template:
+        '<div class="cursor-default">' +
         '<table class="border-collapse bg-white">' +
         '<tr ng-repeat="carte1 in cartes">' +
         '<td ng-repeat="carte2 in cartes" class="border-solid border border-gray-300 text-center p-0">' +
         '<hand ng-model="currentRange" refresh first="{{carte1}}" second="{{carte2}}"></hand>' +
-        '</td>' +
-        '</tr>' +
-        '</table>' +
-        '</div>',
-      replace: true
-    }
+        "</td>" +
+        "</tr>" +
+        "</table>" +
+        "</div>",
+      replace: true,
+    };
   })
-  .directive('hand', function () {
+  .directive("hand", function () {
     return {
-      restrict: 'E',
+      restrict: "E",
       scope: {
-        first: '@',
-        second: '@'
+        first: "@",
+        second: "@",
       },
       link: function ($scope, element, attrs) {
-        element.on('click', function(){
-          if($scope.selected == false){
-            $scope.selected = true;
-            element.addClass("bg-gray-500");
+        element.on("click", function () {
+          if (element.hasClass("selected") == false) {
+            element.addClass("selected");
+            element.empty();
+            element.append(
+              angular.element(
+                "<span>" + element.attr("id").substr(0, 2) + "</span>"
+              )
+            );
+            var handWrap = angular.element("<div/>");
+            handWrap.addClass(
+              "absolute h-full w-full inset-y-0 left-0 z-20 p-1"
+            );
+            var hand = angular.element("<span/>");
+            hand.text(element.attr("id").substr(0, 2));
+            handWrap.append(hand);
+            element.append(handWrap);
+            var child = angular.element("<div/>");
+            child.addClass("absolute h-full top-0 z-10 bg-gray-500");
+            child.css({
+              width: "100%",
+              left: "0",
+            });
+            element.append(child);
           } else {
-            $scope.selected = false;
-            element.removeClass("bg-gray-500");
+            element.removeClass("selected");
+            element.empty();
+            element.append(
+              angular.element(
+                "<span>" + element.attr("id").substr(0, 2) + "</span>"
+              )
+            );
           }
         });
-        element.on('mousedown', function(){
-          isMouseDown = true;
+        element.on("mouseover", function () {
+          if (isMouseDown) {
+            if (element.hasClass("selected") == false && !isHighlighted) {
+              element.addClass("selected");
+              element.empty();
+              element.append(
+                angular.element(
+                  "<span>" + element.attr("id").substr(0, 2) + "</span>"
+                )
+              );
+              var handWrap = angular.element("<div/>");
+              handWrap.addClass(
+                "absolute h-full w-full inset-y-0 left-0 z-20 p-1"
+              );
+              var hand = angular.element("<span/>");
+              hand.text(element.attr("id").substr(0, 2));
+              handWrap.append(hand);
+              element.append(handWrap);
+              var child = angular.element("<div/>");
+              child.addClass("absolute h-full top-0 z-10 bg-gray-500");
+              child.css({
+                width: "100%",
+                left: "0",
+              });
+              element.append(child);
+            } else {
+              if (element.hasClass("selected") && isHighlighted) {
+                element.removeClass("selected");
+                element.empty();
+                element.append(
+                  angular.element(
+                    "<span>" + element.attr("id").substr(0, 2) + "</span>"
+                  )
+                );
+              }
+            }
+          }
         });
-        element.on('mouseup', function(){
+        element.on("mousedown", function () {
+          isMouseDown = true;
+          isHighlighted = element.hasClass("selected");
+        });
+        element.on("mouseup", function () {
+          isMouseDown = false;
+        });
+        element.on("dblclick", function () {
           isMouseDown = false;
         });
       },
       controller: function ($scope) {
-        $scope.selected = false;
         $scope.valeurs = {
-          "A": 14,
-          "K": 13,
-          "Q": 12,
-          "J": 11,
-          "T": 10,
+          A: 14,
+          K: 13,
+          Q: 12,
+          J: 11,
+          T: 10,
           "9": 9,
           "8": 8,
           "7": 7,
@@ -236,27 +331,28 @@ angular.module('suitedApp', ['LocalStorageModule'])
           "5": 5,
           "4": 4,
           "3": 3,
-          "2": 2
+          "2": 2,
         };
       },
-      template: '<div class="select-none relative z-0 w-full h-full p-1 text-xs">' +
+      template:
+        '<div class="select-none relative z-0 w-full h-full p-1 text-xs">' +
         '<span ng-if="valeurs[first] > valeurs[second]">{{first}}{{second}}</span>' +
         '<span ng-if="valeurs[first] == valeurs[second]">{{first}}{{second}}</span>' +
         '<span ng-if="valeurs[first] < valeurs[second]">{{second}}{{first}}</span>' +
-        '</div>',
-      replace: true
-    }
+        "</div>",
+      replace: true,
+    };
   })
-  .directive('refresh', function () {
+  .directive("refresh", function () {
     return {
       require: "ngModel",
       link: function ($scope, $element, $attrs, ngModel) {
         var valeurs = {
-          "A": 14,
-          "K": 13,
-          "Q": 12,
-          "J": 11,
-          "T": 10,
+          A: 14,
+          K: 13,
+          Q: 12,
+          J: 11,
+          T: 10,
           "9": 9,
           "8": 8,
           "7": 7,
@@ -264,41 +360,57 @@ angular.module('suitedApp', ['LocalStorageModule'])
           "5": 5,
           "4": 4,
           "3": 3,
-          "2": 2
+          "2": 2,
         };
-        $scope.selected = false;
         var combo = "";
-        combo = (valeurs[$attrs.first] > valeurs[$attrs.second]) ? $attrs.first + $attrs.second + "s" : combo;
-        combo = (valeurs[$attrs.first] == valeurs[$attrs.second]) ? $attrs.first + $attrs.second : combo;
-        combo = (valeurs[$attrs.first] < valeurs[$attrs.second]) ? $attrs.second + $attrs.first + "o" : combo;
-        $scope.$watch(function () {
-          return ngModel.$modelValue;
-        }, function (modelValue) {
-          $element.empty();
-          $element.attr('id', combo);
-          $element.removeClass("bg-gray-500");
-          $element.append(angular.element("<span>" + combo.substr(0, 2) + "</span>"));
-          if (modelValue[combo] !== undefined) {
-            var handWrap = angular.element("<div/>");
-            handWrap.addClass("absolute h-full w-full inset-y-0 left-0 z-20 p-1");
-            var hand = angular.element("<span/>");
-            hand.text(combo.substr(0, 2));
-            handWrap.append(hand);
-            $element.append(handWrap);
+        combo =
+          valeurs[$attrs.first] > valeurs[$attrs.second]
+            ? $attrs.first + $attrs.second + "s"
+            : combo;
+        combo =
+          valeurs[$attrs.first] == valeurs[$attrs.second]
+            ? $attrs.first + $attrs.second
+            : combo;
+        combo =
+          valeurs[$attrs.first] < valeurs[$attrs.second]
+            ? $attrs.second + $attrs.first + "o"
+            : combo;
+        $scope.$watch(
+          function () {
+            return ngModel.$modelValue;
+          },
+          function (modelValue) {
+            $element.empty();
+            $element.attr("id", combo);
+            $element.removeClass("bg-gray-500");
+            $element.append(
+              angular.element("<span>" + combo.substr(0, 2) + "</span>")
+            );
+            if (modelValue[combo] !== undefined) {
+              $element.addClass("selected");
+              var handWrap = angular.element("<div/>");
+              handWrap.addClass(
+                "absolute h-full w-full inset-y-0 left-0 z-20 p-1"
+              );
+              var hand = angular.element("<span/>");
+              hand.text(combo.substr(0, 2));
+              handWrap.append(hand);
+              $element.append(handWrap);
 
-            var left = 0;
-            modelValue[combo].forEach(element => {
-              var child = angular.element("<div/>");
-              child.addClass("absolute h-full top-0 z-10 " + element.color);
-              child.css({
-                'width': element.value + '%',
-                'left': left + '%'
+              var left = 0;
+              modelValue[combo].forEach((element) => {
+                var child = angular.element("<div/>");
+                child.addClass("absolute h-full top-0 z-10 " + element.color);
+                child.css({
+                  width: element.value + "%",
+                  left: left + "%",
+                });
+                $element.append(child);
+                left = left + element.value;
               });
-              $element.append(child);
-              left = left + element.value;
-            });
+            }
           }
-        });
-      }
-    }
+        );
+      },
+    };
   });
