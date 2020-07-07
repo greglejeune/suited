@@ -139,7 +139,7 @@ angular.module('suitedApp', [])
               $scope.currentRange = $scope.getRange();
             } else {
               $scope.currentActions = ACTIONS.OOP;
-              $scope.currentRangeText = $scope.hero + " vs " + $scope.vilain + " " + ACTIONS.OOP[0];
+              $scope.currentRangeText = $scope.hero + " vs " + $scope.vilain + " " + ((POSITIONS[$scope.hero] > 6) ? ACTIONS.OOP[0] : ACTIONS.OOP[1]);
               $scope.currentRange = $scope.getRange();
             }
           }

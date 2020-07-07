@@ -329,7 +329,7 @@ var RANGES = [
 var ACTIONS = {
     "RFI": ["Open"],
     "IP": ["Open", "3bet", "4bet"],
-    "OOP": ["3bet"]
+    "OOP": ["Open","3bet"]
 }
 
 var POSITIONS = {
