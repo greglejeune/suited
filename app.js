@@ -1,6 +1,13 @@
-angular.module('suitedApp', [])
-  .controller('ApplicationController', function ($scope) {
-    $scope.datas = RANGES;
+angular.module('suitedApp', ['LocalStorageModule'])
+  .config(function (localStorageServiceProvider) {
+    localStorageServiceProvider.setPrefix('suited');
+  })
+  .controller('ApplicationController', function ($scope, localStorageService) {
+    $scope.unbind = localStorageService.bind($scope, 'datas');
+    if ($scope.datas == null) {
+      $scope.datas = RANGES;
+    }
+
     $scope.actions = ACTIONS;
 
     $scope.currentGame = $scope.datas[0];
@@ -11,12 +18,32 @@ angular.module('suitedApp', [])
     $scope.currentAction = null;
     $scope.currentRangeText = "";
     $scope.currentRange = [];
+    $scope.selectedCategory = null;
     $scope.rngMode = 0;
+
+    $scope.test = function () {
+      var allNews = document.querySelectorAll(".bg-gray-500");
+      allNews.forEach(function (elmt) {
+        console.log(elmt.id);
+      });
+    }
+
+    $scope.refreshRange = function (category, element) {
+      $scope.selectedCategory = null;
+      $scope.currentRange = $scope.getRange();
+    }
+
+    $scope.refreshRange = function (category, element) {
+      $scope.selectedCategory = null;
+      $scope.currentRange = $scope.getRange();
+    }
 
     $scope.setRange = function (category, element) {
       var range = [];
       var frequence = [];
       var randomizer = ($scope.rngMode == 0) ? 0 : (Math.floor(Math.random() * (100 - 0)) + 0);
+
+      $scope.selectedCategory = category;
 
       var copyText = document.querySelector("#copied");
       copyText.type = 'text';
@@ -177,7 +204,25 @@ angular.module('suitedApp', [])
         first: '@',
         second: '@'
       },
+      link: function ($scope, element, attrs) {
+        element.on('click', function(){
+          if($scope.selected == false){
+            $scope.selected = true;
+            element.addClass("bg-gray-500");
+          } else {
+            $scope.selected = false;
+            element.removeClass("bg-gray-500");
+          }
+        });
+        element.on('mousedown', function(){
+          isMouseDown = true;
+        });
+        element.on('mouseup', function(){
+          isMouseDown = false;
+        });
+      },
       controller: function ($scope) {
+        $scope.selected = false;
         $scope.valeurs = {
           "A": 14,
           "K": 13,
@@ -221,6 +266,7 @@ angular.module('suitedApp', [])
           "3": 3,
           "2": 2
         };
+        $scope.selected = false;
         var combo = "";
         combo = (valeurs[$attrs.first] > valeurs[$attrs.second]) ? $attrs.first + $attrs.second + "s" : combo;
         combo = (valeurs[$attrs.first] == valeurs[$attrs.second]) ? $attrs.first + $attrs.second : combo;
@@ -229,6 +275,8 @@ angular.module('suitedApp', [])
           return ngModel.$modelValue;
         }, function (modelValue) {
           $element.empty();
+          $element.attr('id', combo);
+          $element.removeClass("bg-gray-500");
           $element.append(angular.element("<span>" + combo.substr(0, 2) + "</span>"));
           if (modelValue[combo] !== undefined) {
             var handWrap = angular.element("<div/>");
