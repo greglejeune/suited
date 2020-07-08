@@ -4,7 +4,7 @@ angular
     localStorageServiceProvider.setPrefix("suited");
   })
   .controller("ApplicationController", function ($scope, localStorageService) {
-    $scope.unbind = localStorageService.bind($scope, "datas");
+    //$scope.unbind = localStorageService.bind($scope, "datas");
     if ($scope.datas == null) {
       $scope.datas = RANGES;
     }

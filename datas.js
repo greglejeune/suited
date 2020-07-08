@@ -7,27 +7,33 @@ var RANGES = [
                 "seats": [
                     {
                         "name": "BB",
-                        "style": "top: 75px; left: 0px;"
+                        "style": "top: 75px; left: 0px;",
+                        "styleTitle": "top: 85px; left: 12px;"
                     },
                     {
                         "name": "SB",
-                        "style": "top: 150px; left: 56px;"
+                        "style": "top: 150px; left: 56px;",
+                        "styleTitle": "top: 160px; left: 69px;"
                     },
                     {
                         "name": "BTN",
-                        "style": "top: 150px; right: 56px;"
+                        "style": "top: 150px; right: 56px;",
+                        "styleTitle": "top: 160px; right: 64px;"
                     },
                     {
                         "name": "CO",
-                        "style": "top: 75px; left: 248px;"
+                        "style": "top: 75px; left: 248px;",
+                        "styleTitle": "top: 85px; left: 260px;"
                     },
                     {
                         "name": "HJ",
-                        "style": "top: 0px; right: 56px;"
+                        "style": "top: 0px; right: 56px;",
+                        "styleTitle": "top: 10px; right: 69px;"
                     },
                     {
                         "name": "LJ",
-                        "style": "top: 0px; left: 56px;"
+                        "style": "top: 0px; left: 56px;",
+                        "styleTitle": "top: 10px; left: 70px;"
                     }
                 ],
                 "ranges": {

@@ -38,27 +38,31 @@
       <div class="relative p-4 mt-10 mb-4">
         <img src="https://pokerbankrolltracker.net/img/tisch.png" class="w-64">
         <img src="//pokerbankrolltracker.net/img/button.png" class="w-4 absolute" style="top: 134px; left: 176px;">
-        <img src="//pokerbankrolltracker.net/img/seat.png" ng-repeat="seat in currentDeep.seats" ng-click="selectSeat(seat)" class="w-10 absolute" style="{{seat.style}}"> 
-        <!--<div class="absolute text-xs font-bold px-1" style="bottom: 0px; right: 60px; background: #002B3C; color: #47A9D1;">
-          <span>BTN</span>
-        </div>-->
+        <img src="//pokerbankrolltracker.net/img/seat.png" ng-repeat="seat in currentDeep.seats" ng-click="selectSeat(seat)" class="w-10 absolute" style="{{seat.style}}">
+        <div ng-repeat="seat in currentDeep.seats" ng-click="selectSeat(seat)" class="select-none absolute text-xs font-bold" style="{{seat.styleTitle}}">
+          <span>{{seat.name}}</span>
+        </div>
       </div>
       <div>
-        <h3 class="text-gray-900 text-xl h-7">&nbsp;{{currentRangeText}}</h3>
+        <div class="mb-4">
+          <h3 class="text-gray-900 text-xl h-7 mb-1">{{currentRangeText}}</h3>        
+          <a href="javascript: void(0);" ng-repeat="action in currentActions" class="mr-3" ng-click="selectAction(action)">{{action}}</a>
+        </div>
+        <div class="flex">
+          <a href="javascript: void(0);" ng-click="setRange(category, $event.currentTarget)" ng-repeat="category in currentDeep.ranges[currentRangeText].categories" class="p-2 flex items-center justify-between text-sm font-medium rounded-lg {{category.color}}">{{category.name}}</a>
+        </div>
+        <range></range>
+        <div class="my-4">
+          <input ng-model="selectedCategory.combos" ng-blur="refreshRange()" ng-show="selectedCategory != null" class="appearance-none border-2 border-gray-500 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none bg-white focus:border-gray-700">
+          <input id="copied" type="hidden">
+        </div>
+        <div class="flex items-center justify-between">
+          <div></div>
+          <button ng-click="test()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+            Test
+          </button>
+        </div>
       </div>
-      <div class="h-5">
-        &nbsp;
-        <a href="javascript: void(0);" ng-repeat="action in currentActions" class="mr-3" ng-click="selectAction(action)">{{action}}</a>
-      </div>
-      <range class="m-4"></range>
-      <div class="flex">
-        <a href="javascript: void(0);" ng-click="setRange(category, $event.currentTarget)" ng-repeat="category in currentDeep.ranges[currentRangeText].categories" class="p-2 m-2 flex items-center justify-between text-sm font-medium rounded-lg {{category.color}}">{{category.name}}</a>
-      </div>
-      <div class="m-4">
-        <input ng-model="selectedCategory.combos" ng-blur="refreshRange()" ng-show="selectedCategory != null" class="appearance-none border-2 border-gray-500 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none bg-white focus:border-gray-700">
-        <input id="copied" type="hidden">
-      </div>
-      <a href="javascript: void(0);" ng-click="test()">test</a>
     </main>
 
   </div>
