@@ -142,10 +142,10 @@ angular
       if ($scope.vilain != null) {
         $scope.currentRangeText =
           $scope.hero + " vs " + $scope.vilain + " " + $scope.currentAction;
-        $scope.currentRange = $scope.getRange();
+        $scope.refreshRange();
       } else {
         $scope.currentRangeText = $scope.hero + " " + $scope.currentAction;
-        $scope.currentRange = $scope.getRange();
+        $scope.refreshRange();
       }
     };
     $scope.selectSeat = function (seat) {
@@ -155,13 +155,13 @@ angular
           $scope.vilain = null;
           $scope.currentActions = ACTIONS.RFI;
           $scope.currentRangeText = $scope.hero + " " + ACTIONS.RFI[0];
-          $scope.currentRange = $scope.getRange();
+          $scope.refreshRange();
         } else {
           if ($scope.hero == seat.name) {
             $scope.vilain = null;
             $scope.currentActions = ACTIONS.RFI;
             $scope.currentRangeText = $scope.hero + " " + ACTIONS.RFI[0];
-            $scope.currentRange = $scope.getRange();
+            $scope.refreshRange();
           } else {
             $scope.vilain = seat.name;
             if (POSITIONS[$scope.hero] < POSITIONS[$scope.vilain]) {
@@ -172,7 +172,7 @@ angular
                 $scope.vilain +
                 " " +
                 (POSITIONS[$scope.vilain] > 6 ? ACTIONS.IP[1] : ACTIONS.IP[0]);
-              $scope.currentRange = $scope.getRange();
+              $scope.refreshRange();
             } else {
               $scope.currentActions = ACTIONS.OOP;
               $scope.currentRangeText =
@@ -181,7 +181,7 @@ angular
                 $scope.vilain +
                 " " +
                 (POSITIONS[$scope.hero] > 6 ? ACTIONS.OOP[0] : ACTIONS.OOP[1]);
-              $scope.currentRange = $scope.getRange();
+              $scope.refreshRange();
             }
           }
         }
@@ -189,7 +189,7 @@ angular
         $scope.hero = seat.name;
         $scope.currentActions = ACTIONS.RFI;
         $scope.currentRangeText = $scope.hero + " " + ACTIONS.RFI[0];
-        $scope.currentRange = $scope.getRange();
+        $scope.refreshRange();
       }
     };
   })
