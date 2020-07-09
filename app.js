@@ -4,7 +4,7 @@ angular
     localStorageServiceProvider.setPrefix("suited");
   })
   .controller("ApplicationController", function ($scope, localStorageService) {
-    //$scope.unbind = localStorageService.bind($scope, "datas");
+    $scope.unbind = localStorageService.bind($scope, "datas");
     if ($scope.datas == null) {
       $scope.datas = RANGES;
     }
@@ -37,6 +37,20 @@ angular
     $scope.refreshRange = function (category, element) {
       $scope.selectedCategory = null;
       $scope.currentRange = $scope.getRange();
+    };
+
+    $scope.addRange = function () {
+      $scope.currentDeep.ranges[$scope.currentRangeText].categories.push({
+        "name": "New",
+        "combos": "",
+        "color": "bg-gray-600"
+      });
+    };
+
+    $scope.deleteRange = function () {
+      var index = $scope.currentDeep.ranges[$scope.currentRangeText].categories.indexOf($scope.selectedCategory);
+      $scope.currentDeep.ranges[$scope.currentRangeText].categories.splice(index,1);
+      $scope.selectedCategory = null;
     };
 
     $scope.setRange = function (category, element) {
@@ -133,9 +147,12 @@ angular
     };
     $scope.selectGame = function (game) {
       $scope.currentGame = game;
+      $scope.currentDeep = game.deeps[0];
+      $scope.selectSeat(game.deeps[0].seats[game.deeps[0].seats.length - 1]);
     };
     $scope.selectDeep = function (deep) {
       $scope.currentDeep = deep;
+      $scope.selectSeat(game.deeps[0].seats[game.deeps[0].seats.length - 1]);
     };
     $scope.selectAction = function (action) {
       $scope.currentAction = action;

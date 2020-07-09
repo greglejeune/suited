@@ -329,13 +329,289 @@ var RANGES = [
                 }
             }
         ]
+    },
+    {
+        "name": "Simple",
+        "deeps": [
+            {
+                "name": "100bb",
+                "seats": [
+                    {
+                        "name": "BB",
+                        "style": "top: 75px; left: 0px;",
+                        "styleTitle": "top: 85px; left: 12px;"
+                    },
+                    {
+                        "name": "SB",
+                        "style": "top: 150px; left: 56px;",
+                        "styleTitle": "top: 160px; left: 69px;"
+                    },
+                    {
+                        "name": "BTN",
+                        "style": "top: 150px; right: 56px;",
+                        "styleTitle": "top: 160px; right: 64px;"
+                    },
+                    {
+                        "name": "CO",
+                        "style": "top: 75px; left: 248px;",
+                        "styleTitle": "top: 85px; left: 260px;"
+                    },
+                    {
+                        "name": "HJ",
+                        "style": "top: 0px; right: 56px;",
+                        "styleTitle": "top: 10px; right: 69px;"
+                    },
+                    {
+                        "name": "LJ",
+                        "style": "top: 0px; left: 56px;",
+                        "styleTitle": "top: 10px; left: 70px;"
+                    }
+                ],
+                "ranges": {
+                    "LJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "LJ vs BTN 3bet": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "LJ vs BB 3bet": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "HJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "HJ vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "CO Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "CO vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "CO vs HJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "CO vs BTN 3bet": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "CO vs BB 3bet": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BTN Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BTN vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BTN vs HJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BTN vs CO Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BTN vs BB 3bet": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "SB Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "SB vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "SB vs HJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "SB vs CO Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "SB vs BTN Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "SB vs BB 3bet": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BB vs LJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BB vs HJ Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BB vs CO Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BB vs BTN Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    },
+                    "BB vs SB Open": {
+                        "categories": [
+                            {
+                                "name": "New",
+                                "combos": "",
+                                "color": "bg-yellow-600"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
     }
 ];
 
 var ACTIONS = {
     "RFI": ["Open"],
     "IP": ["Open", "3bet", "4bet"],
-    "OOP": ["Open","3bet"]
+    "OOP": ["Open", "3bet"]
 }
 
 var POSITIONS = {
