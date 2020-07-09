@@ -145,6 +145,9 @@ angular
     $scope.turnRNGMode = function (game) {
       $scope.rngMode = $scope.rngMode == 0 ? 1 : 0;
     };
+    $scope.reset = function (game) {
+      $scope.datas = RANGES;
+    };
     $scope.selectGame = function (game) {
       $scope.currentGame = game;
       $scope.currentDeep = game.deeps[0];
