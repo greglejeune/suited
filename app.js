@@ -22,11 +22,14 @@ angular
     $scope.selectedCategory = null;
     $scope.rngMode = 0;
 
-    $scope.test = function () {
+    $scope.saveRange = function () {
       var allNews = document.querySelectorAll(".selected");
+      var range = [];
       allNews.forEach(function (elmt) {
-        console.log(elmt.id);
+        range.push(elmt.id);
       });
+      $scope.selectedCategory.combos = range.toString();
+      $scope.refreshRange();
     };
 
     $scope.refreshRange = function (category, element) {

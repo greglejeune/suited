@@ -51,7 +51,7 @@
         </div>
         <div class="flex">
           <a href="javascript: void(0);" ng-click="setRange(category, $event.currentTarget)" ng-repeat="category in currentDeep.ranges[currentRangeText].categories" class="p-2 flex items-center justify-between text-sm font-medium rounded-lg {{category.color}}">{{category.name}}</a>
-          <a href="javascript: void(0);" ng-click="addRange()" class="p-2 flex items-center justify-between text-sm font-medium rounded-lg bg-gray-500">+</a>
+          <a href="javascript: void(0);" ng-show="currentDeep.ranges[currentRangeText].categories != null" ng-click="addRange()" class="p-2 flex items-center justify-between text-sm font-medium rounded-lg bg-gray-500">+</a>
         </div>
         <range></range>
         <div class="my-4 flex flex-col">
@@ -64,8 +64,8 @@
           <button ng-click="deleteRange()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
             Supprimer
           </button>
-          <button ng-click="test()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-            Test
+          <button ng-click="saveRange()" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+            Sauvegarder
           </button>
         </div>
       </div>
