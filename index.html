@@ -46,7 +46,10 @@
       </div>
       <div>
         <div class="mb-4">
-          <h3 class="text-gray-900 text-xl h-7 mb-1">{{currentRangeText}}</h3>        
+          <div class="flex items-center justify-between">
+            <h3 class="text-gray-900 text-xl h-7 mb-1">{{currentRangeText}}</h3>
+            <span class="text-xs">RNG : {{random}}</span>
+          </div>
           <a href="javascript: void(0);" ng-repeat="action in currentActions" class="mr-3" ng-click="selectAction(action)">{{action}}</a>
         </div>
         <div class="flex">

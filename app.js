@@ -21,6 +21,7 @@ angular
     $scope.currentRange = [];
     $scope.selectedCategory = null;
     $scope.rngMode = 0;
+    $scope.random = 0;
 
     $scope.saveRange = function () {
       var allNews = document.querySelectorAll(".selected");
@@ -102,6 +103,8 @@ angular
       var frequence = [];
       var randomizer =
         $scope.rngMode == 0 ? 0 : Math.floor(Math.random() * (100 - 0)) + 0;
+      $scope.random =
+        $scope.rngMode == 0 ? Math.floor(Math.random() * (100 - 0)) + 0 : randomizer;
 
       if ($scope.currentDeep.ranges[$scope.currentRangeText] != undefined) {
         $scope.currentDeep.ranges[$scope.currentRangeText].categories.forEach(
