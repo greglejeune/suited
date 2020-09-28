@@ -1,6 +1,6 @@
 var RANGES = [
   {
-    "name": "NL10",
+    "name": "CASH",
     "deeps": [
       {
         "name": "100bb",
@@ -41,7 +41,7 @@ var RANGES = [
             "categories": [
               {
                 "name": "Raise",
-                "combos": "55+,AJo+,A3s+,KQs,T9s,KQo,KJs,QJs,JTs,KTs-K9s,QTs-Q9s",
+                "combos": "AA,KK,QQ,JJ,TT,99,88,77,66:0.25,AK,AQ,AJ,AT,A9s,A8s,A7s,A6s,A5s,A4s,A3s,A2s,KQ,KJ,KTs,KTo:0.25,K9s,K8s,K7s:0.25,K6s:0.25,K5s:0.25,QJs,QJo:0.25,QTs,Q9s,JTs,J9s:0.06,T9s:0.5,98s:0.06,87s:0.06,76s:0.06,65s:0.06,54s:0.06",
                 "color": "bg-orange-500"
               }
             ]
@@ -50,17 +50,8 @@ var RANGES = [
             "categories": [
               {
                 "name": "Raise",
-                "combos": "55+,ATo+,A2s+,KQs,T9s,KJo+,KJs,QJs,J9s+,KTs-K9s,QTs-Q9s",
+                "combos": "AA,KK,QQ,JJ,TT,99,88,77,66,55:0.75,44:0.25,33:0.25,22:0.25,AK,AQ,AJ,AT,A9s,A9o:0.25,A8s,A7s,A6s,A5s,A4s,A3s,A2s,KQ,KJ,KT,K9s,K8s,K7s,K6s,K5s:0.75,QJ,QTs,QTo:0.5,Q9s,Q8s:0.5,JTs,JTo:0.12,J9s,T9s,T8s:0.5,98s:0.5,87s:0.5,76s:0.25,65s:0.25,54s:0.25",
                 "color": "bg-orange-500"
-              }
-            ]
-          },
-          "HJ vs LJ Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-99,AK,A5s-A4s,KJs-KTs",
-                "color": "bg-red-500"
               }
             ]
           },
@@ -68,68 +59,8 @@ var RANGES = [
             "categories": [
               {
                 "name": "Raise",
-                "combos": "44+,A9o+,KTo+,QTo+,JTo+,A2s+,K4s+,Q7s+,J8s+,T8s+,98s",
+                "combos": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33:0.25,22:0.12,AK,AQ,AJ,AT,A9,A8s,A8o:0.5,A7s,A6s,A5s,A5o:0.5,A4s,A3s,A2s,KQ,KJ,KT,K9s,K9o:0.12,K8s,K7s,K6s,K5s,K4s,K3s:0.75,QJ,QT,Q9s,Q8s,Q7s,Q6s,Q5s,Q4s:0.25,JT,J9s,J8s,T9s,T8s,T7s:0.25,98s,97s,87s:0.75,76s:0.5,65s:0.5,54s:0.5",
                 "color": "bg-orange-500"
-              }
-            ]
-          },
-          "CO vs LJ Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-99,AK,A5s-A4s,KJs-KTs",
-                "color": "bg-red-500"
-              }
-            ]
-          },
-          "CO vs HJ Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-99,AK,A5s-A4s,KJs-KTs",
-                "color": "bg-red-500"
-              }
-            ]
-          },
-          "CO vs BTN 3bet": {
-            "categories": [
-              {
-                "name": "4bet",
-                "combos": "AA-QQ,AQo:0.50,AK,KJs:0.50,ATs:0.50,A5s:0.50",
-                "color": "bg-pink-500"
-              },
-              {
-                "name": "Call",
-                "combos": "JJ-22,AQo:0.50,AQs-AJs,ATs:0.51,A5s:0.51,KQs,JTs,T9s:0.50,98s:0.50,87s:0.50,76s:0.50,65s:0.50",
-                "color": "bg-green-500"
-              }
-            ]
-          },
-          "CO vs SB 3bet": {
-            "categories": [
-              {
-                "name": "4bet",
-                "combos": "AA-QQ,AQo:0.50,AK,KJs:0.50,ATs:0.50,A5s:0.50",
-                "color": "bg-pink-500"
-              },
-              {
-                "name": "Call",
-                "combos": "JJ-22,AQo:0.50,AQs-AJs,ATs:0.51,A5s:0.51,KQs,JTs,T9s:0.50,98s:0.50,87s:0.50,76s:0.50,65s:0.50",
-                "color": "bg-green-500"
-              }
-            ]
-          },
-          "CO vs BB 3bet": {
-            "categories": [
-              {
-                "name": "4bet",
-                "combos": "AA-QQ,AQo:0.50,AK,KJs:0.50,ATs:0.50,A5s:0.50",
-                "color": "bg-pink-500"
-              },
-              {
-                "name": "Call",
-                "combos": "JJ-22,AQo:0.50,AQs-AJs,ATs:0.51,A5s:0.51,KQs,JTs,T9s:0.50,98s:0.50,87s:0.50,76s:0.50,65s:0.50",
-                "color": "bg-green-500"
               }
             ]
           },
@@ -137,63 +68,8 @@ var RANGES = [
             "categories": [
               {
                 "name": "Raise",
-                "combos": "22+,A4o+,K8o+,Q9o+,J9o+,T9o,A2s+,K2s+,Q3s+,J6s+,T6s+,96s+,86s+,75s+,65s,54s",
+                "combos": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,AK,AQ,AJ,AT,A9,A8,A7,A6,A5,A4,A3s,A2s,KQ,KJ,KT,K9,K8,K7s,K6s,K5s,K4s,K3s,K2s,QJ,QT,Q9,Q8s,Q7s,Q6s,Q5s,Q4s,Q3s,Q2s:0.25,JT,J9,J8s,J8o:0.5,J7s,J6s,J5s,J4s:0.25,T9,T8s,T8o:0.75,T7s,T6s,98s,98o:0.5,97s,96s,87s,86s,76s,75s,65s,54s",
                 "color": "bg-orange-500"
-              }
-            ]
-          },
-          "BTN vs LJ Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-QQ,JJ-66:0.50,AKo,AQo:0.50,KQo:0.50,AKs-AQs,AJs-A8s:0.50,A5-A4s:0.50,KQs-KTs:0.50,QJs-QTs:0.50",
-                "color": "bg-red-500"
-              }
-            ]
-          },
-          "BTN vs HJ Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-QQ,JJ-66:0.50,AKo,AQo:0.50,KQo:0.50,AKs-AQs,AJs-A8s:0.50,A5-A4s:0.50,KQs-KTs:0.50,QJs-QTs:0.50",
-                "color": "bg-red-500"
-              }
-            ]
-          },
-          "BTN vs CO Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-66,AKo-AQo,AJo:0.50,KQo:0.50,AKs-AQs,AJs-ATs,A9s-A8s:0.50,A5-A3s:0.50,KQs-K9s:0.50,QJs-QTs:0.50,Q9s,JTs:0.50,T9s:0.50",
-                "color": "bg-red-500"
-              }
-            ]
-          },
-          "BTN vs SB 3bet": {
-            "categories": [
-              {
-                "name": "4bet",
-                "combos": "AA-JJ,AK,AQo-ATo:0.33,KQo:0.33,A6s:0.50,A3s:0.50,A2s",
-                "color": "bg-pink-500"
-              },
-              {
-                "name": "Call",
-                "combos": "TT-22,AQo-AJo:0.67,KQo:0.67,AQs-A7s,A6s:0.51,A5s-A4s,A3s:0.51,KQs-K9s,QJs-Q9s,JTs-J9s,T9s,98s,87s,76s,65s",
-                "color": "bg-green-500"
-              }
-            ]
-          },
-          "BTN vs BB 3bet": {
-            "categories": [
-              {
-                "name": "4bet",
-                "combos": "AA-JJ,AK,AQo-ATo:0.33,KQo:0.33,A6s:0.50,A3s:0.50,A2s",
-                "color": "bg-pink-500"
-              },
-              {
-                "name": "Call",
-                "combos": "TT-22,AQo-AJo:0.67,KQo:0.67,AQs-A7s,A6s:0.51,A5s-A4s,A3s:0.51,KQs-K9s,QJs-Q9s,JTs-J9s,T9s,98s,87s,76s,65s",
-                "color": "bg-green-500"
               }
             ]
           },
@@ -201,58 +77,8 @@ var RANGES = [
             "categories": [
               {
                 "name": "Raise",
-                "combos": "22+,A4o+,K8o+,Q9o+,J9o+,T9o,A2s+,K2s+,Q3s+,J6s+,T6s+,96s+,86s+,75s+,65s,54s",
+                "combos": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,AK,AQ,AJ,AT,A9,A8,A7,A6,A5,A4,A3s,A2s,KQ,KJ,KT,K9,K8,K7s,K6s,K5s,K4s,K3s,K2s,QJ,QT,Q9,Q8s,Q7s,Q6s,Q5s,Q4s,Q3s,Q2s:0.5,JT,J9,J8s,J8o:0.25,J7s,J6s,J5s,J4s:0.5,T9,T8s,T8o:0.5,T7s,T6s,98s,98o:0.75,97s,96s,87s,87o:0.5,86s,85s,76s,75s,65s,64s,54s",
                 "color": "bg-orange-500"
-              }
-            ]
-          },
-          "SB vs LJ Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-99,AKo,AKs,KQs,A5s-A4s",
-                "color": "bg-red-500"
-              }
-            ]
-          },
-          "SB vs HJ Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-99,AKo,AKs,KQs,A5s-A4s",
-                "color": "bg-red-500"
-              }
-            ]
-          },
-          "SB vs CO Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-77,AKo-AQo,AJo:0.50,KQo,AKs-A9s,A5s-A4s,KQs-KTs,QJs-QTs,JTs",
-                "color": "bg-red-500"
-              }
-            ]
-          },
-          "SB vs BTN Open": {
-            "categories": [
-              {
-                "name": "3bet",
-                "combos": "AA-55,AKo-AJo,KQo,AKs-A7s,A5s-A4s,KQs-K9s,QJs-QTs,JTs-J9s,T9s",
-                "color": "bg-red-500"
-              }
-            ]
-          },
-          "SB vs BB 3bet": {
-            "categories": [
-              {
-                "name": "4bet",
-                "combos": "AA-JJ,TT:0.50,AK,AQo-ATo:0.50,AQs:0.50",
-                "color": "bg-pink-500"
-              },
-              {
-                "name": "Call",
-                "combos": "TT:0.51,99-22,AQo-AJo:0.50,KQo,AQs:0.50,AJs-A3s,KQs-K9s,QJs-Q9s,JTs-J9s,T9s,98s,87s,76s,65s",
-                "color": "bg-green-500"
               }
             ]
           },
@@ -260,12 +86,12 @@ var RANGES = [
             "categories": [
               {
                 "name": "3bet",
-                "combos": "AA-QQ,AKo:0.50,AKs,A5s-A4s:0.50,KQs,QJs:0.50",
-                "color": "bg-red-500"
+                "combos": "",
+                "color": "bg-orange-500"
               },
               {
                 "name": "Call",
-                "combos": "JJ-22,AKo:0.50,AQo-ATo,KQo-KJo,QJo,AQs-A6s,A5s-A4s:0.51,A3s-A2s,KJs-K9s,QJs:0.51,QTs-Q9s,JTs-J9s,T9s-T8s,98s,87s,76s,65s,54s,43s",
+                "combos": "",
                 "color": "bg-green-500"
               }
             ]
@@ -274,12 +100,12 @@ var RANGES = [
             "categories": [
               {
                 "name": "3bet",
-                "combos": "AA-QQ,AKo:0.50,AKs,A5s-A4s:0.50,KQs,QJs:0.50",
-                "color": "bg-red-500"
+                "combos": "",
+                "color": "bg-orange-500"
               },
               {
                 "name": "Call",
-                "combos": "JJ-22,AKo:0.50,AQo-ATo,KQo-KJo,QJo,AQs-A6s,A5s-A4s:0.51,A3s-A2s,KJs-K9s,QJs:0.51,QTs-Q9s,JTs-J9s,T9s-T8s,98s,87s,76s,65s,54s,43s",
+                "combos": "",
                 "color": "bg-green-500"
               }
             ]
@@ -288,12 +114,12 @@ var RANGES = [
             "categories": [
               {
                 "name": "3bet",
-                "combos": "AA-JJ,TT:0.50,AKo,AQo:0.33,KQo-KJo:0.33,AKs-AQs,A6s-A5s:0.50,KQs-KJs:0.50,QJs-QTs:0.50,Q9s-Q8s:0.33,JTs,J9s-J8s:0.33,T9s-T7s:0.33,97s:0.33,86s:0.33,76s:0.33",
-                "color": "bg-red-500"
+                "combos": "",
+                "color": "bg-orange-500"
               },
               {
                 "name": "Call",
-                "combos": "TT:0.51,99-22,AQo:0.67,AJo-A9o,KQo-KJo:0.67,KTo,QJo-QTo,JTo,AJs-A7s,A6s-A5s:0.51,A4s-A2s,KQs-KJs:0.51,KTs-K2s,QJs-QTs:0.51,Q9s-Q8s:0.68,J9s-J8s:0.68,T9s-T7s:0.68,98s,97s:0.68,87s,86s:0.68,76s:0.68,75s,65s,54s,43s",
+                "combos": "",
                 "color": "bg-green-500"
               }
             ]
@@ -302,12 +128,12 @@ var RANGES = [
             "categories": [
               {
                 "name": "3bet",
-                "combos": "AA-99,88-55:0.33,AKo-AQo,AJo:0.33,KQo:0.33,AJs+,ATs:0.33,KQs,KJs:0.33,A5s,A4s,JTs,J9s,T9s-T8s,76s:0.33,65s:0.33,54s:0.33",
-                "color": "bg-red-500"
+                "combos": "AA,KK,QQ,JJ,TT,99,88:0.5,77:0.25,AK,AQ,AJs,AJo:0.5,ATs,ATo:0.13,A9s:0.25,A8s:0.5,A8o:0.13,A7s:0.5,A7o:0.13,A6s:0.25,A5s,A4:0.5,A3s:0.25,KQs,KQo:0.5,KJs,KJo:0.25,KTs,KTo:0.5,K9s:0.75,K8s:0.25,K7s:0.13,K6s:0.25,QJs,QJo:0.25,QTs,QTo:0.25,Q9s:0.75,Q8s:0.13,JTs,JTo:0.25,J9s,J9o:0.25,J8s:0.25,J7s:0.5,J5s:0.13,T9s,T9o:0.13,T8s:0.75,T7s:0.25,T6s:0.13,98s:0.75,97s:0.13,87s,76s:0.75,65s:0.5,54s:0.5",
+                "color": "bg-orange-500"
               },
               {
                 "name": "Call",
-                "combos": "88-55:0.68,44-22,AJo:0.67,ATo-A4o,KQo:0.67,KJo-K9o,QJo-Q9o,JTo-J9o,T9o,ATs:0.68,A9s-A6s,A3s-A2s,KJs:0.68,KTs-K2s,QJs-Q2s,J8s-J6s,T7s-T6s,98s-96s,87s-86s,76s:0.68,75s,65s:0.68,64s,54s:0.68,53s,43s",
+                "combos": "88:0.5,77:0.75,66:0.87,55,44,33,22,AJo:0.5,ATo:0.87,A9s:0.75,A9o,A8s:0.5,A8o:0.87,A7s:0.5,A7o:0.87,A6s:0.75,A6o:0.5,A5,A4:0.5,A3s:0.75,A2s,KQo:0.5,KJo:0.75,KTo:0.5,K9s:0.25,K9o,K8s:0.75,K7s:0.87,K6s:0.75,K5s,K4s,K3s,K2s,QJo:0.75,QTo:0.75,Q9s:0.25,Q9o,Q8s:0.87,Q7s,Q6s,Q5s,Q4s,Q3s,Q2s,JTo:0.75,J9o:0.75,J8s:0.75,J7s:0.5,J6s,J5s:0.87,J4s,J3s,J2s:0.87,T9o:0.87,T8s:0.25,T8o:0.5,T7s:0.75,T6s:0.87,98s:0.25,98o:0.5,97s:0.87,96s,87o:0.5,86s,85s,76s:0.25,75s,74s,65s:0.5,64s,63s,54s:0.5,53s,52s,43s,42s:0.75,32s:0.25",
                 "color": "bg-green-500"
               }
             ]
@@ -316,12 +142,12 @@ var RANGES = [
             "categories": [
               {
                 "name": "3bet",
-                "combos": "AA-TT,99-88:0.50,AKo-AQo,A6o:0.50,A2o:0.50,KQo:0.33,K4o:0.50,Q6o:0.50,J8o:0.50,J7o:0.50,T7o:0.50,ATs+,A5s-A3s,KQs-KTs,QJs:0.50,JTs:0.50,J2s:0.50,T9s:0.50,T5s-T2s:0.50,98s:0.50,93s:0.50,87s:0.50,76s:0.50,65s:0.50,54s:0.50",
-                "color": "bg-red-500"
+                "combos": "AA,KK,QQ,JJ,TT,99:0.87,88:0.5,77:0.25,66:0.25,AK,AQ,AJs,AJo:0.5,ATs,A9s:0.25,A8o:0.14,A7:0.25,A6o:0.5,A5s,A4s,A3s:0.75,A3o:0.5,A2s:0.25,A2o:0.5,KQs,KQo:0.5,KJs,KJo:0.14,KTs,K9s:0.5,K9o:0.25,K8:0.25,K7:0.5,K6s:0.5,K6o:0.25,K5:0.25,QJs,QTs:0.75,Q9o:0.25,Q8o:0.5,JTs,J9s:0.5,J9o:0.25,J8o:0.5,J5s:0.25,J4s:0.25,J3s:0.25,J2s:0.25,T9s,T9o:0.25,T8s:0.25,T8o:0.5,T7o:0.5,T6s:0.25,T5s:0.5,T4s:0.5,T3s:0.5,T2s:0.5,98s,87s:0.75,76s:0.75,65s:0.75,54s",
+                "color": "bg-orange-500"
               },
               {
                 "name": "Call",
-                "combos": "99-88:0.51,77-22,AJo-A7o,A6o:0.50,A5o-A3o,A2o:0.50,KQo:0.67,KJo-K8o,QJo-Q8o,JTo-J9o,J8o:0.50,T9o-T8o,98o,A9s-A6s,A3s-A2s,K9s-K2s,QJs:0.51,QTs-Q2s,JTs:0.51,J9s-J6s,T9s:0.51,T8s-T6s,98:0.51,97s-96s,87s:0.51,86s-85s,76s:0.51,75s-74s,65s:0.51,64s,54s:0.51,53s,43s",
+                "combos": "99:0.13,88:0.5,77:0.75,66:0.75,55,44,33,22,AJo:0.5,ATo,A9s:0.75,A9o,A8s,A8o:0.86,A7:0.75,A6s,A6o:0.5,A5o,A4o,A3s:0.25,A3o:0.5,A2s:0.75,A2o:0.5,KQo:0.5,KJo:0.86,KTo,K9s:0.5,K9o:0.75,K8:0.75,K7:0.5,K6s:0.5,K6o:0.75,K5s:0.75,K5o:0.25,K4s,K3s,K2s,QJo,QTs:0.25,QTo,Q9s,Q9o:0.75,Q8s,Q8o:0.5,Q7s,Q6s,Q5s,Q4s,Q3s,Q2s,JTo,J9s:0.5,J9o:0.75,J8s,J8o:0.5,J7s,J6s,J5s:0.75,J4s:0.75,J3s:0.75,J2s:0.75,T9o:0.75,T8s:0.75,T8o:0.5,T7s,T7o:0.5,T6s:0.75,T5s:0.5,T4s:0.5,T3s:0.5,T2s:0.5,98o,97s,97o:0.5,96s,95s,94s:0.87,93s:0.87,87s:0.25,87o,86s,85s,84s,76s:0.25,76o:0.5,75s,74s,73s,65s:0.25,65o:0.5,64s,63s,54o:0.5,53s,52s,43s,42s,32s",
                 "color": "bg-green-500"
               }
             ]
