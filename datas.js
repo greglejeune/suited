@@ -1,6 +1,6 @@
 var RANGES = [
   {
-    "name": "CG v1",
+    "name": "Suited v1",
     "deeps": [
       {
         "name": "100bb",
@@ -404,7 +404,7 @@ var RANGES = [
     ]
   },
   {
-    "name": "CG v2",
+    "name": "Suited v2",
     "deeps": [
       {
         "name": "100bb",
@@ -1292,6 +1292,11880 @@ var RANGES = [
             ]
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Crush",
+    "deeps": [
+      {
+        "name": "100bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "66+,AJs+,A2s-A5s,KQs,98s,87s,76s,AJo+,KQo",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "55+,ATs+,A2s-A5s,KJs+,98s,87s,76s,AJo+,KQo",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "22+,A8s+,A2s-A5s,K9s+,QTs+,JTs,T9s,98s,87s,76s,A9o+,KTo+,QTo+",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Loose",
+                "combos": "A7s-A6s,T8s,65s,JTo",
+                "color": "bg-yellow-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "22+,A2s+,K6s+,Q6s+,J7s+,T7s+,97s+,87s,76s,A2o+,K8o+,Q9o+,J9o+,T9o",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Standard",
+                "combos": "K4s-K5s,Q5s,J6s,T6s,96s,86s,K5o-K7o,Q7o-Q8o,J8o",
+                "color": "bg-yellow-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Standard",
+                "combos": "55+,A2s+,K9s+,QTs+,JTs,T9s,98s,87s,76s,A6o+,KTo+,QTo+,JTo",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Loose",
+                "combos": "22-44,K2s-K8s,Q8s-Q9s,J8s-J9s,T8s,98s,65s,A2o-A5o,K2o-K9o,Q9o,J9o,T9o",
+                "color": "bg-yellow-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Mes ranges",
+    "deeps": [
+      {
+        "name": "100bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "AA,AKs,AQs,AJs,A5s,A4s,A3s,AKo,KK,KQs,AQo,KQo,QQ,AJo,JJ,TT,99,98s,88,87s,77,76s",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "AA,AKs,AQs,AJs,ATs,A5s,A4s,A3s,A2s,AKo,KK,KQs,KJs,AQo,KQo,QQ,AJo,JJ,TT,99,98s,88,87s,77,76s,66",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,A5s,A4s,A3s,A2s,AKo,KK,KQs,KQo",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "AA,AKs,AQs,AJs,ATs,A9s,A8s,A7s,A6s,A5s,A4s,A3s,A2s,AKo,KK,KQs,KJs,KTs,K9s,AQo,KQo,QQ,QJs,QTs,Q9s,AJo,KJo,QJo,JJ,JTs,J9s,ATo,KTo,QTo,TT,T9s,A9o,99,98s,88,87s,77,76s,66,55,44",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,A5s,A4s,A3s,A2s,AKo,KK,KQs,KQo",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,A5s,A4s,A3s,A2s,AKo,KK-QQ,KQs,KQo",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "AA,AKs,AQs,AJs,ATs,A9s,A8s,A7s,A6s,A5s,A4s,A3s,A2s,AKo,KK,KQs,KJs,KTs,K9s,K8s,K7s,K6s,K5s,AQo,KQo,QQ,QJs,QTs,Q9s,Q8s,Q7s,Q6s,Q5s,AJo,KJo,QJo,JJ,JTs,J9s,J8s,J7s,ATo,KTo,QTo,JTo,TT,T9s,T8s,T7s,A9o,K9o,Q9o,J9o,T9o,99,98s,97s,A8o,88,87s,86s,A7o,77,76s,75s,A6o,66,65s,A5o,55,54s,A4o,44,33,22",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,A5s,A4s,A3s,A2s,AKo,KK,KQs,KQo",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,A5s,A4s,A3s,A2s,AKo,KK-QQ,KQs,KQo",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AQs,AJs,A5s,A4s,A3s,A2s,AKo,KK,KQs,AQo,KQo,QQ,JJ,TT",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "AA,AKs,AQs,AJs,ATs,A9s,A8s,A7s,A6s,A5s,A4s,A3s,A2s,AKo,KK,KQs,KJs,KTs,K9s,K8s,K7s,K6s,K5s,K4s,K3s,K2s,AQo,KQo,QQ,QJs,QTs,Q9s,Q8s,AJo,KJo,QJo,JJ,JTs,J9s,J8s,ATo,KTo,QTo,JTo,TT,T9s,T8s,A9o,K9o,Q9o,J9o,T9o,99,98s,97s,A8o,88,87s,86s,A7o,77,76s,75s,A6o,66,65s,64s,A5o,55,54s,A4o,44,33,22",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AKo,KK,KQs",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AKo,KK,KQs",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AQs,AJs,A5s,A4s,A3s,A2s,AKo,KK,KQs,AQo,KQo,QQ,JJ,TT",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AQs,AJs,ATs,A9s,A8s,A5s,A4s,A3s,A2s,AKo,KK,KQs,KJs,AQo,KQo,QQ,QJs,AJo,KJo,JJ,ATo,TT,A9o,99,88,77,66",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AKo,KK,KQs",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AKo,KK,KQs",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AQs,AJs,A5s,A4s,A3s,A2s,AKo,KK,KQs,AQo,KQo,QQ,JJ,TT",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AQs,AJs,ATs,A9s,A8s,A5s,A4s,A3s,A2s,AKo,KK,KQs,KJs,AQo,KQo,QQ,QJs,AJo,KJo,JJ,ATo,TT,A9o,99,88,77,66",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "AA,AKs,AQs,AJs,ATs,A9s,A8s,A5s,A4s,A3s,A2s,AKo,KK,KQs,KJs,AQo,KQo,QQ,QJs,AJo,KJo,JJ,ATo,TT,A9o,99,88,77,66",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "Analyse Reg",
+    "deeps": [
+      {
+        "name": "100bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "T9s",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "T9s",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "KJs",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "J9s,A8o",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "A9o,Q8o",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      }
+    ]
+  },
+  {
+    "name": "6max",
+    "deeps": [
+      {
+        "name": "75bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "50bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "40bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "35bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "30bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "25bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "20bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "17bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "15bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "12bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
+      },
+      {
+        "name": "10bb",
+        "seats": [
+          {
+            "name": "BB",
+            "style": "top: 75px; left: 0px;",
+            "styleTitle": "top: 85px; left: 12px;"
+          },
+          {
+            "name": "SB",
+            "style": "top: 150px; left: 56px;",
+            "styleTitle": "top: 160px; left: 69px;"
+          },
+          {
+            "name": "BTN",
+            "style": "top: 150px; right: 56px;",
+            "styleTitle": "top: 160px; right: 64px;"
+          },
+          {
+            "name": "CO",
+            "style": "top: 75px; left: 248px;",
+            "styleTitle": "top: 85px; left: 260px;"
+          },
+          {
+            "name": "HJ",
+            "style": "top: 0px; right: 56px;",
+            "styleTitle": "top: 10px; right: 69px;"
+          },
+          {
+            "name": "LJ",
+            "style": "top: 0px; left: 56px;",
+            "styleTitle": "top: 10px; left: 70px;"
+          }
+        ],
+        "ranges": {
+          "LJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "LJ vs HJ 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs HJ 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "LJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "HJ vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs CO 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "HJ vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "CO vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BTN 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "CO vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "BTN vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs SB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BTN vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB Open": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Limp",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              }
+            ]
+          },
+          "SB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB Iso": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 3bet": {
+            "categories": [
+              {
+                "name": "4bet",
+                "combos": "",
+                "color": "bg-red-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "SB vs BB 5bet": {
+            "categories": [
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs LJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs HJ 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs CO 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs BTN 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB Limp": {
+            "categories": [
+              {
+                "name": "Raise",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Check",
+                "combos": "",
+                "color": "bg-gray-500"
+              }
+            ]
+          },
+          "BB vs SB Open": {
+            "categories": [
+              {
+                "name": "3bet",
+                "combos": "",
+                "color": "bg-orange-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          },
+          "BB vs SB 4bet": {
+            "categories": [
+              {
+                "name": "All-in",
+                "combos": "",
+                "color": "bg-pink-500"
+              },
+              {
+                "name": "Call",
+                "combos": "",
+                "color": "bg-green-500"
+              }
+            ]
+          }
+        },
+        "links": []
       }
     ]
   }

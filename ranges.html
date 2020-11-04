@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Suited</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body ng-app="suitedApp" onmouseup="javascript:isMouseDown=false;">
+
+  <div id="app" class="bg-gray-200 antialiased" ng-controller="ApplicationController">
+
+    <header class="flex justify-between items-center bg-gray-900 px-4 py-3">
+      <div class="flex">
+        <svg class="h-8 w-8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.767 26.805l15.717 3.39a1.283 1.283 0 001.524-.984l4.963-23.006a1.283 1.283 0 00-.984-1.525L15.271 1.29a1.283 1.283 0 00-1.525.984L8.784 25.281a1.283 1.283 0 00.983 1.524z" fill="#EFEFEF"/><path d="M9.767 26.805a1.283 1.283 0 01-.983-1.525L13.4 3.873 4.685 2.667A1.283 1.283 0 003.24 3.762L.012 27.075a1.283 1.283 0 001.095 1.447l15.926 2.204a1.284 1.284 0 001.447-1.095l.128-.92-8.84-1.906z" fill="#E0E2E0"/><path d="M19.067 21.818c-2.763-2.935-3.976-5.406-4.418-7.164-.516-2.054.877-4.564 2.956-4.972 2.443-.48 3.69 1.809 3.69 1.809s2.078-1.571 4.106-.127c1.725 1.229 1.961 4.09.643 5.748-1.127 1.42-3.25 3.171-6.977 4.706z" fill="#C03A2B"/><path d="M12.25 9.209a29.255 29.255 0 00-.571-.539c-3.601 1.81-5.588 3.715-6.606 5.216-1.19 1.752-.74 4.588 1.072 5.684 1.792 1.084 3.455.04 3.94-.32L12.25 9.209z" fill="#2C2F38"/></svg>
+        <div class="ml-10">
+          <a ng-repeat="data in datas" ng-click="selectGame(data)" href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">{{data.name}}</a>
+        </div>
+      </div>
+      <button>
+        <svg class="h-6 w-6 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 5h16a1 1 0 110 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"/></svg>
+      </button>
+    </header>
+
+    <section class="bg-gray-800 px-4 py-3 flex justify-between items-center">
+      <div>
+        <a ng-repeat="deep in currentGame.deeps" ng-click="selectDeep(deep)" href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">{{deep.name}}</a>
+      </div>
+      <div>
+        <a ng-click="turnRNGMode()" href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">RNG</a>
+        <a ng-click="reset()" href="#" class="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">RESET</a>
+      </div>
+    </section>
+    
+    <main class="flex flex-col items-center">
+      <div class="w-2/6 flex justify-between items-center py-1">
+        <button ng-click="razRange(currentDeep.ranges)" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+          RAZ
+        </button>
+      </div>
+      <ul class="w-2/6 px-4 py-3">
+        <li ng-repeat="(range, categories) in currentDeep.ranges">
+          <span class="font-bold">{{range}}</span>
+          <ul class="px-4 py-3">
+            <li ng-repeat="category in categories.categories" class="flex justify-between items-center py-1">
+              <span>{{category.name}}</span>
+              <input ng-model="category.combos" class="appearance-none border-2 border-gray-500 rounded w-64 py-2 px-4 text-gray-700 leading-tight focus:outline-none bg-white focus:border-gray-700">
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+
+  </div>
+
+  <script>
+    var isMouseDown = false;
+    var isHighlighted;
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-local-storage/0.7.1/angular-local-storage.min.js"></script>
+  <script src="app.js"></script>
+  <script src="datas.js"></script>
+  <script src="poker.js"></script>
+
+</body>
+
+</html>

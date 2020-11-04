@@ -22,6 +22,15 @@ angular
     $scope.selectedCategory = null;
     $scope.rngMode = 0;
     $scope.random = 0;
+    $scope.searchText = "";
+
+    $scope.razRange = function (ranges) {
+      for (const [name, range] of Object.entries(ranges)) {
+        range.categories.forEach(function (category) {
+          category.combos = "";
+        });
+      }
+    };
 
     $scope.saveRange = function () {
       var allNews = document.querySelectorAll(".selected");
@@ -55,6 +64,20 @@ angular
       var index = $scope.currentDeep.ranges[$scope.currentRangeText].categories.indexOf($scope.selectedCategory);
       $scope.currentDeep.ranges[$scope.currentRangeText].categories.splice(index,1);
       $scope.selectedCategory = null;
+    };
+
+    $scope.displayRange = function () {
+      var result = document.getElementsByClassName("selected");
+      var range = "";
+      for (var i = 0; i < result.length; i++) {
+        range = range + result[i].id + ",";
+      }
+      var copyText = document.querySelector("#copied");
+      copyText.type = "text";
+      copyText.value = range;
+      copyText.select();
+      document.execCommand("copy");
+      copyText.type = "hidden";
     };
 
     $scope.setRange = function (category, element) {
